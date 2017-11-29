@@ -1,13 +1,11 @@
 [user]
 	name = Kevin Peters
-	email =
+	email = kwpeters@gmail.com
 [core]
 	editor = emacs
 	autocrlf = input
 	excludesfile = /Users/kwpeters/.gitignore_global
 	longpaths = true
-[http]
-	sslVerify = false
 [github]
 	user = kwpeters
 	oauth-token = ee7ebe0d8f6d88664ab90e68eb7262c5ec0c2a9d
@@ -37,6 +35,8 @@
 	default = simple
 
 [alias]
-lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	st = status
 	co = checkout
+[commit]
+	template = /Users/kwpeters/.stCommitMsg

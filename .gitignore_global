@@ -1,2 +1,13 @@
-*~
+# Mac OS X files
 .DS_Store
+
+# WebStorm temporary files
+/.idea/*
+!/.idea/runConfigurations
+
+# Emacs temporary files
+*~
+.tern-port
+
+# A folder where I like to keep temporary files.
+/.scratch/
